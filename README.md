@@ -147,6 +147,7 @@ CREATE TABLE jobs (
     salary VARCHAR(100),
     url TEXT
 );
+```
 
 
 

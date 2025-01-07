@@ -87,7 +87,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
+<!-- (example.com) -->
 
 <!-- Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license` -->
 
@@ -205,7 +206,13 @@ CREATE TABLE job_post (
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+[![Product Screen Shot 1][product-screenshot-1]]
+
+Here is a screenshot of myself on the page after clicking the "Hunt Jobs" button on the navbar. Here you can type in input parameters so that the backend can send an API request to the Adzuna servers to search for jobs based on the preferences.
+<br /><br />
+The only required parameters are "Search" and "Country". The rest are optional and the backend is able to handle omission of input in the optional fields.
+
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,12 +221,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Add ability to save jobs to favorites (Home)
+- [x] Search a wide variety of countries
+- [ ] Additional safety features
+    - [ ] Handling of API credentials
+    - [ ] Basic authentication
 
-See the [open issues](https://github.com/accc2023/personal-job-portal/issues) for a full list of proposed features (and known issues).
+<!-- See the [open issues](https://github.com/accc2023/personal-job-portal/issues) for a full list of proposed features (and known issues). -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,7 +260,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT license. See `LICENSE.txt` for more information.
+Distributed under the MIT license.
+<!-- Distributed under the MIT license. See `LICENSE.txt` for more information. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,13 +279,13 @@ Project Link: [https://github.com/accc2023/personal-job-portal](https://github.c
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments
 
 * []()
 * []()
 * []()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -295,6 +304,9 @@ Project Link: [https://github.com/accc2023/personal-job-portal](https://github.c
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/arhan-chhabra
 [product-screenshot]: images/ex.png
+[product-screenshot-1]: images/ExSearchWithoutResult.png
+[product-screenshot-2]: images/ExSearchWithResult.png
+[product-screenshot-3]: images/ExSearchLocal.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

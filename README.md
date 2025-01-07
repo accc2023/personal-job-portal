@@ -114,12 +114,18 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+<!-- This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps. -->
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+<!-- This is an example of how to list things you need to use the software and how to install them. -->
+Ensure that following technologies are installed:
+
+- Install [Java 17+](https://www.oracle.com/java/technologies/javase-downloads.html) (required for Spring Boot backend).
+- Install [Node.js and npm](https://nodejs.org/) (required for the React frontend).
+- Install [PostgreSQL](https://www.postgresql.org/download/) and [pgAdmin](https://www.pgadmin.org/download/) (required for the database).
+
 * npm
   ```sh
   npm install npm@latest -g

@@ -155,7 +155,12 @@ CREATE TABLE job_post (
 );
 ```
 
-4. Navigate to src/main/resources/application.properties<br />
+4. Clone the repo
+   ```sh
+   git clone https://github.com/accc2023/personal-job-portal.git
+   ```
+
+5. Navigate to src/main/resources/application.properties<br />
   Add your PostgreSQL username, password, and database name:
     ```properties
     spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
@@ -163,19 +168,17 @@ CREATE TABLE job_post (
     spring.datasource.password=your_password
     ```
 
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/accc2023/personal-job-portal.git
-   ```
-3. Install NPM packages
+6. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+
+6. Get a free API Key at [https://developer.adzuna.com](https://developer.adzuna.com)
+7. Generate an API key and Application ID. Navigate to the JobRestController class in the backend (src/main/java/com/example/jobportal/JobRestController.java).
+7. Replace the placeholders for APP_ID and API_KEY with your actual API credentials:
+   ```java
+    private static final String APP_ID = "your_app_id";
+    private static final String API_KEY = "your_api_key";
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh

@@ -37,7 +37,7 @@
 <h3 align="center">My Job Vault</h3>
 
   <p align="left">
-    I have created a personalised job portal for students and professionals to use to enhance their career search. The project consists of a backend built using (Java) Spring Boot utilizing a REST API (to save data into a database). The backend queries job-platform Adzuna for JSON data based on certain parameters (passes through the frontend) using the Adzuna API.
+    I have created a personalised job portal for students and professionals to enhance their career search. The project consists of a backend built using (Java) Spring Boot utilizing a REST API (to save data into a database). The backend queries job-platform Adzuna for JSON data based on certain parameters (passes through the frontend) using the Adzuna API.
     <br /><br />
     The frontend was built by adapting a frontend template using Node.js and React. The frontend is responsible for collecting and passing user input as well as displaying the result of the API querying from the backend in an appealing manner.
     <br /><br />

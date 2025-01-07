@@ -206,7 +206,7 @@ CREATE TABLE job_post (
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-[![Product Screen Shot 1][product-screenshot-1]]
+![Product Screen Shot 1][product-screenshot-1]
 
 Here is a screenshot of myself on the page after clicking the "Hunt Jobs" button on the navbar. Here you can type in input parameters so that the backend can send an API request to the Adzuna servers to search for jobs based on the preferences.
 <br /><br />

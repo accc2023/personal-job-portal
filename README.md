@@ -168,19 +168,29 @@ CREATE TABLE job_post (
     spring.datasource.password=your_password
     ```
 
-6. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-6. Get a free API Key at [https://developer.adzuna.com](https://developer.adzuna.com)
+6. Get a free API Key and Application ID at [https://developer.adzuna.com](https://developer.adzuna.com)
 7. Generate an API key and Application ID. Navigate to the JobRestController class in the backend (src/main/java/com/example/jobportal/JobRestController.java).
-7. Replace the placeholders for APP_ID and API_KEY with your actual API credentials:
+8. Replace the placeholders for APP_ID and API_KEY with your actual API credentials:
    ```java
     private static final String APP_ID = "your_app_id";
     private static final String API_KEY = "your_api_key";
    ```
-5. Change git remote url to avoid accidental pushes to base project
+
+9. Configure Lombok annotations (click "yes" on the pop ups) and then click "Run" button on the IDE.<br /> If this does not appear by default, navigate to (job-portal-backend/src/java/com.arhan.springbootrest/SpringBootRestApplication).<br /> Then the "Run" button should now appear on your IDE.
+
+10. Navigate (on IDE terminal) to job-portal-frontend and then install NPM packages:
+   ```sh
+   npm install
+   ```
+
+11. After successfully installing, start NPM.
+   ```sh
+   npm start
+   ```
+
+12. NPM start should navigate you to localhost::3000 and the job portal is now live. Enjoy the application!
+
+13. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin accc2023/personal-job-portal
    git remote -v # confirm the changes

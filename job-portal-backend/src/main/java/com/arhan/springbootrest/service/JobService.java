@@ -44,6 +44,7 @@ public class JobService {
 			"https://api.adzuna.com/v1/api/jobs/{country}/search/1?app_id={appId}&app_key={appKey}&results_per_page={resultsPerPage}&what={what}&salary_min={salary}&content-type=application/json";
 	// Change such that there are multiple API URL
 	// Method to fetch jobs from Adzuna API
+	// Canada (ca) job query is buggy (not outputting full list of jobs available)
 	public List<JobPost> importJobsFromAdzuna(String what, String country, String where, Integer salary_min, String company, String appId, String appKey, int resultsPerPage) {
 		List<JobPost> finalJobPosts = new ArrayList<>();
 		RestTemplate restTemplate = new RestTemplate();

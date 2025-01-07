@@ -204,13 +204,26 @@ CREATE TABLE job_post (
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
 ![Product Screen Shot 1][product-screenshot-1]
 
 Here is a screenshot of myself on the page after clicking the "Hunt Jobs" button on the navbar. Here you can type in input parameters so that the backend can send an API request to the Adzuna servers to search for jobs based on the preferences.
 <br /><br />
 The only required parameters are "Search" and "Country". The rest are optional and the backend is able to handle omission of input in the optional fields.
+<br /><br />
+
+![Product Screen Shot 2][product-screenshot-2]
+
+This is a screenshot taken right after inputting a search query. As shown, the page is updated dynamically to display the results from the API request. On this page, I can browse through the jobs and click the "+" to add to my favourites (which are the jobs on the home page). After "+" is clicked, a message of "Added" is displayed and the job has been added to the Postgres database and will now be visible on your home page.
+<br /><br />
+
+![Product Screen Shot 3][product-screenshot-3]
+
+This is the page right after clicking the "Search" button on the top right of the page for my input search term. The jobs displayed here are selected from my favourites (on home page) based on your search query matches. It is now much more easier to search for jobs you have saved rather than going through a large list of jobs on the home page if you would only like to see a few at a time.
+<br /><br />
+
+The job posts themselves are clickable which take you to the redirect URL for the job postings (either the job is listed on Adzuna directly or a third-party website).
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 

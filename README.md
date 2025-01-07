@@ -131,6 +131,9 @@ Ensure that following technologies are installed:
   npm install npm@latest -g
   ``` -->
 
+
+### Installation
+
 1. Install PostgreSQL and create a new database (e.g., `jobportal`).
 2. Open `pgAdmin` and set up a new user with a username and password.
 3. Create a table in the database using the schema below:
@@ -152,9 +155,7 @@ CREATE TABLE job_post (
 );
 ```
 
-### Installation
-
-2. Navigate to src/main/resources/application.properties<br />
+4. Navigate to src/main/resources/application.properties<br />
   Add your PostgreSQL username, password, and database name:
     ```properties
     spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name

@@ -126,10 +126,29 @@ Ensure that following technologies are installed:
 - Install [Node.js and npm](https://nodejs.org/) (required for the React frontend).
 - Install [PostgreSQL](https://www.postgresql.org/download/) and [pgAdmin](https://www.pgadmin.org/download/) (required for the database).
 
-* npm
+<!-- * npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
+
+1. Install PostgreSQL and create a new database (e.g., `jobportal`).
+2. Open `pgAdmin` and set up a new user with a username and password.
+3. Create a table in the database using the schema below:
+
+```sql
+CREATE TABLE jobs (
+    id SERIAL PRIMARY KEY,
+    job_id BIGINT UNIQUE,
+    title VARCHAR(255),
+    description TEXT,
+    location VARCHAR(255),
+    company_name VARCHAR(255),
+    employment_type VARCHAR(255),
+    salary VARCHAR(100),
+    url TEXT
+);
+
+
 
 ### Installation
 

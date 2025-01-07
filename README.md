@@ -154,14 +154,13 @@ CREATE TABLE job_post (
 
 ### Installation
 
-2. Navigate to src/main/resources/application.properties
+2. Navigate to src/main/resources/application.properties<br />
   Add your PostgreSQL username, password, and database name:
-  ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-
-  ```
+    ```properties
+    spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
+    ```
 
 
 1. Get a free API Key at [https://example.com](https://example.com)

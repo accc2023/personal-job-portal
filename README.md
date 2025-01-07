@@ -164,8 +164,9 @@ CREATE TABLE job_post (
 
 5. Navigate to src/main/resources/application.properties<br />
   Add your PostgreSQL username, password, and database name:
+  (Postgres is usually hosted on port 5433 or 5432)
     ```properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
+    spring.datasource.url=jdbc:postgresql://localhost:port_postgres_hosted/your_database_name
     spring.datasource.username=your_username
     spring.datasource.password=your_password
     ```
@@ -174,8 +175,8 @@ CREATE TABLE job_post (
 7. Generate an API key and Application ID. Navigate to the JobRestController class in the backend (src/main/java/com/example/jobportal/JobRestController.java).
 8. Replace the placeholders for APP_ID and API_KEY with your actual API credentials:
    ```java
-    private static final String APP_ID = "your_app_id";
-    private static final String API_KEY = "your_api_key";
+    private static final String appId = "your_app_id";
+    private static final String appKey = "your_api_key";
    ```
 
 9. Configure Lombok annotations (click "yes" on the pop ups) and then click "Run" button on the IDE.<br /> If this does not appear by default, navigate to (job-portal-backend/src/java/com.arhan.springbootrest/SpringBootRestApplication).<br /> Then the "Run" button should now appear on your IDE.

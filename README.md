@@ -136,22 +136,33 @@ Ensure that following technologies are installed:
 3. Create a table in the database using the schema below:
 
 ```sql
-CREATE TABLE jobs (
-    id SERIAL PRIMARY KEY,
-    job_id BIGINT UNIQUE,
-    title VARCHAR(255),
-    description TEXT,
-    location VARCHAR(255),
-    company_name VARCHAR(255),
-    employment_type VARCHAR(255),
-    salary VARCHAR(100),
-    url TEXT
+CREATE TABLE job_post (
+    post_id BIGINT PRIMARY KEY,
+    post_desc CHARACTER VARYING(1000),
+    post_profile CHARACTER VARYING(255),
+    post_tech_stack CHARACTER VARYING(255)[],
+    req_experience INTEGER,
+    company CHARACTER VARYING(255),
+    location CHARACTER VARYING(255),
+    post_date CHARACTER VARYING(255),
+    redirect_url CHARACTER VARYING(255),
+    salary_max DOUBLE PRECISION,
+    salary_min CHARACTER VARYING(255),
+    salary DOUBLE PRECISION
 );
 ```
 
-
-
 ### Installation
+
+2. Navigate to src/main/resources/application.properties
+  Add your PostgreSQL username, password, and database name:
+  ```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+  ```
+
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo

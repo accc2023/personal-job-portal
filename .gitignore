@@ -1,0 +1,8 @@
+#Check that this file does not cause issue with running or uploading to GitHub
+# Ignore system files at the root
+.DS_Store
+*.log
+
+# (Optional) Ignore IDE-specific folders at the root
+.idea/
+.vscode/

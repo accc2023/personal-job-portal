@@ -15,12 +15,12 @@ public class JobRestController {
 	private JobService service;
 
 	//@Value("${adzuna.api.key}") //GIVES ERROR FIX LATER
-	// Adzuna API key
-	private String appKey = "f74d4be22163898730057fbbcb98e0f7";
+	// Adzuna API key (replace with your own)
+	private String appKey = "key";
 
 	//@Value("${adzuna.app.id}") //GIVES ERROR FIX LATER
-	// Adzuna API ID
-	private String appId = "5bf1a997";
+	// Adzuna API ID (replace with your own)
+	private String appId = "id";
 
 	// Endpoint to import jobs from Adzuna API
 	@GetMapping("/importJobs")
